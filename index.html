@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nagender Full Stack Learning Desk</title>
+  <meta name="description" content="A focused full stack learning portal for students, with daily lessons, practice work, MCQs, interview preparation, and mentor review.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__inner">
+      <button class="brand" type="button" data-route="student" aria-label="Open student dashboard">
+        <span class="brand__mark">N</span>
+        <span>
+          <strong>Nagender Learning Desk</strong>
+          <small>Full stack foundation batch</small>
+        </span>
+      </button>
+
+      <nav class="nav-actions" aria-label="Primary navigation">
+        <button type="button" data-route="student">Student</button>
+        <button type="button" data-route="leaderboard">Leaderboard</button>
+        <button type="button" data-route="admin">Admin</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" class="app" tabindex="-1"></main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
