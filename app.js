@@ -579,19 +579,6 @@
   function renderLogin() {
     qs("#app").innerHTML = `
       <section class="screen login-grid">
-        <div class="intro-panel">
-          <div class="intro-panel__content">
-            <p class="eyebrow">Student learning portal</p>
-            <h1>Daily lessons that students can actually revise.</h1>
-            <p class="intro-copy">This desk is built for a full stack foundation batch: one day at a time, with learning notes, MCQs, practice uploads, interview answers, and mentor review in one place.</p>
-            <div class="intro-metrics" aria-label="Course summary">
-              <div class="metric"><strong>${courseDays.length}</strong><span>class days</span></div>
-              <div class="metric"><strong>15</strong><span>MCQs per day</span></div>
-              <div class="metric"><strong>2+</strong><span>practice tasks</span></div>
-              <div class="metric"><strong>10</strong><span>interview prompts</span></div>
-            </div>
-          </div>
-        </div>
 
         <div class="form-panel">
           <p class="eyebrow">Batch access</p>
@@ -605,7 +592,7 @@
             <div class="field">
               <label for="studentPhone">Phone number</label>
               <input id="studentPhone" name="studentPhone" inputmode="numeric" maxlength="10" required placeholder="Example: 9999999999">
-              <p class="hint">Demo numbers: 9999999999, 8888888888, 7777777777. Edit allowedStudents in app.js for the real batch.</p>
+            
             </div>
             <button class="primary-btn" type="submit">Start learning</button>
             <p id="loginError" class="form-error" aria-live="polite"></p>
