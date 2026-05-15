@@ -12,7 +12,7 @@
   ];
 
   // Replace these demo numbers with your actual batch phone numbers.
-  const allowedStudents = ["9999999999", "8888888888", "7777777777"];
+  const allowedStudents = ["9618100536", "9640735020", "9390339182","9642631019","9848256694","7439045986","7680832390","7670973466","8367267967","8328506190"];
 
   const state = {
     activeTab: "learn",
