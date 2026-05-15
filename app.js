@@ -1091,7 +1091,7 @@
         <form id="adminLoginForm" novalidate>
           <div class="field">
             <label for="adminEmail">Email</label>
-            <input id="adminEmail" type="email" autocomplete="username" required placeholder="admin@nagender.app">
+            <input id="adminEmail" type="email" autocomplete="username" required placeholder="">
           </div>
           <div class="field">
             <label for="adminPassword">Password</label>
